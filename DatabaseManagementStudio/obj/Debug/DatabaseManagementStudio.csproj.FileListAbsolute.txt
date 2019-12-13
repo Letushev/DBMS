@@ -1,0 +1,14 @@
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\bin\Debug\DatabaseManagementStudio.exe.config
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\bin\Debug\DatabaseManagementStudio.exe
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\bin\Debug\DatabaseManagementStudio.pdb
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.Properties.Resources.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.csproj.GenerateResource.cache
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.exe
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.pdb
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.MainForm.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.DatabaseForm.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.TableForm.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.AddColumnForm.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.AddRowForm.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.TablesDiffForm.resources
+D:\Університет (Летушев)\4 курс - 1 семестр\Інформаційні технології\DatabaseManagementStudio\DatabaseManagementStudio\obj\Debug\DatabaseManagementStudio.csprojAssemblyReference.cache

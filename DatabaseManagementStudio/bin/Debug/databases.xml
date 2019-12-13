@@ -1,0 +1,331 @@
+<?xml version="1.0"?>
+<ArrayOfDatabase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Database>
+    <name>Школа</name>
+    <tables>
+      <Table>
+        <name>Учні</name>
+        <columns>
+          <Column>
+            <name>Ім'я</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Прізвище</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Вік</name>
+            <type>int</type>
+            <isNotNull>false</isNotNull>
+          </Column>
+          <Column>
+            <name>Середній бал</name>
+            <type>float</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Група</name>
+            <type>char</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+        </columns>
+        <rows>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Катерина</anyType>
+              <anyType xsi:type="xsd:string">Куценко</anyType>
+              <anyType xsi:type="xsd:decimal">18</anyType>
+              <anyType xsi:type="xsd:double">83.4</anyType>
+              <anyType xsi:type="xsd:string">А</anyType>
+            </values>
+            <id>1</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Василь</anyType>
+              <anyType xsi:type="xsd:string">Маслюк</anyType>
+              <anyType xsi:type="xsd:decimal">19</anyType>
+              <anyType xsi:type="xsd:double">72.15</anyType>
+              <anyType xsi:type="xsd:string">Б</anyType>
+            </values>
+            <id>2</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Вадим</anyType>
+              <anyType xsi:type="xsd:string">Сологуб</anyType>
+              <anyType xsi:type="xsd:decimal">17</anyType>
+              <anyType xsi:type="xsd:double">80</anyType>
+              <anyType xsi:type="xsd:string">А</anyType>
+            </values>
+            <id>3</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Зіновій</anyType>
+              <anyType xsi:type="xsd:string">Брацюк</anyType>
+              <anyType xsi:type="xsd:decimal">20</anyType>
+              <anyType xsi:type="xsd:double">61</anyType>
+              <anyType xsi:type="xsd:string">Г</anyType>
+            </values>
+            <id>4</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Надія</anyType>
+              <anyType xsi:type="xsd:string">Кальніченко</anyType>
+              <anyType xsi:type="xsd:decimal">19</anyType>
+              <anyType xsi:type="xsd:double">75</anyType>
+              <anyType xsi:type="xsd:string">В</anyType>
+            </values>
+            <id>5</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Григорій</anyType>
+              <anyType xsi:type="xsd:string">Міроненко</anyType>
+              <anyType xsi:type="xsd:decimal">22</anyType>
+              <anyType xsi:type="xsd:double">95.6</anyType>
+              <anyType xsi:type="xsd:string">В</anyType>
+            </values>
+            <id>6</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Семен</anyType>
+              <anyType xsi:type="xsd:string">Влющенко</anyType>
+              <anyType xsi:type="xsd:decimal">20</anyType>
+              <anyType xsi:type="xsd:double">78</anyType>
+              <anyType xsi:type="xsd:string">А</anyType>
+            </values>
+            <id>7</id>
+          </Row>
+        </rows>
+      </Table>
+      <Table>
+        <name>Вчителі</name>
+        <columns>
+          <Column>
+            <name>Ім'я</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Прізвище</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Вік</name>
+            <type>int</type>
+            <isNotNull>false</isNotNull>
+          </Column>
+          <Column>
+            <name>Середній бал учнів</name>
+            <type>float</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Кабінет</name>
+            <type>char</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+        </columns>
+        <rows>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Василь</anyType>
+              <anyType xsi:type="xsd:string">Петренко</anyType>
+              <anyType xsi:type="xsd:decimal">42</anyType>
+              <anyType xsi:type="xsd:double">80.4</anyType>
+              <anyType xsi:type="xsd:string">Г</anyType>
+            </values>
+            <id>1</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Андрій</anyType>
+              <anyType xsi:type="xsd:string">Василюк</anyType>
+              <anyType xsi:type="xsd:decimal">64</anyType>
+              <anyType xsi:type="xsd:double">88.8</anyType>
+              <anyType xsi:type="xsd:string">У</anyType>
+            </values>
+            <id>2</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Діана</anyType>
+              <anyType xsi:type="xsd:string">Шерстенюк</anyType>
+              <anyType xsi:type="xsd:decimal">33</anyType>
+              <anyType xsi:type="xsd:double">76</anyType>
+              <anyType xsi:type="xsd:string">Е</anyType>
+            </values>
+            <id>3</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Лідія</anyType>
+              <anyType xsi:type="xsd:string">Василенко</anyType>
+              <anyType xsi:type="xsd:decimal">41</anyType>
+              <anyType xsi:type="xsd:double">65</anyType>
+              <anyType xsi:type="xsd:string">А</anyType>
+            </values>
+            <id>4</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Надія</anyType>
+              <anyType xsi:type="xsd:string">Кальніченко</anyType>
+              <anyType xsi:type="xsd:decimal">19</anyType>
+              <anyType xsi:type="xsd:double">75</anyType>
+              <anyType xsi:type="xsd:string">В</anyType>
+            </values>
+            <id>5</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Василь</anyType>
+              <anyType xsi:type="xsd:string">Маслюк</anyType>
+              <anyType xsi:type="xsd:decimal">19</anyType>
+              <anyType xsi:type="xsd:double">72.15</anyType>
+              <anyType xsi:type="xsd:string">Б</anyType>
+            </values>
+            <id>6</id>
+          </Row>
+        </rows>
+      </Table>
+      <Table>
+        <name>Підручники</name>
+        <columns>
+          <Column>
+            <name>Назва</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Рік</name>
+            <type>int</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Автори</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Ба</name>
+            <type>email</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+        </columns>
+        <rows>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Лінійна алгебра</anyType>
+              <anyType xsi:type="xsd:decimal">100</anyType>
+              <anyType xsi:type="xsd:string">Шевченко, Криволап</anyType>
+              <anyType xsi:nil="true" />
+            </values>
+            <id>1</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Дискретна математика</anyType>
+              <anyType xsi:type="xsd:decimal">100</anyType>
+              <anyType xsi:type="xsd:string">Панченко</anyType>
+              <anyType xsi:nil="true" />
+            </values>
+            <id>2</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">вав</anyType>
+              <anyType xsi:type="xsd:decimal">2</anyType>
+              <anyType xsi:type="xsd:string">вава</anyType>
+              <anyType xsi:type="xsd:string">вавіоп@gmail.com</anyType>
+            </values>
+            <id>3</id>
+          </Row>
+        </rows>
+      </Table>
+      <Table>
+        <name>Нагороди</name>
+        <columns>
+          <Column>
+            <name>Назва</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Місце</name>
+            <type>int</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Категорія</name>
+            <type>string</type>
+            <isNotNull>false</isNotNull>
+          </Column>
+        </columns>
+        <rows>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Кращий заклад міста</anyType>
+              <anyType xsi:type="xsd:decimal">2</anyType>
+              <anyType xsi:nil="true" />
+            </values>
+            <id>1</id>
+          </Row>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Футбол чемпіон</anyType>
+              <anyType xsi:type="xsd:decimal">1</anyType>
+              <anyType xsi:type="xsd:string">Спорт</anyType>
+            </values>
+            <id>2</id>
+          </Row>
+        </rows>
+      </Table>
+    </tables>
+  </Database>
+  <Database>
+    <name>Університет</name>
+    <tables />
+  </Database>
+  <Database>
+    <name>Лікарня</name>
+    <tables />
+  </Database>
+  <Database>
+    <name>Супермаркет</name>
+    <tables>
+      <Table>
+        <name>Менеджери</name>
+        <columns>
+          <Column>
+            <name>Ім'я</name>
+            <type>string</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+          <Column>
+            <name>Пошта</name>
+            <type>email</type>
+            <isNotNull>true</isNotNull>
+          </Column>
+        </columns>
+        <rows>
+          <Row>
+            <values>
+              <anyType xsi:type="xsd:string">Галина</anyType>
+              <anyType xsi:type="xsd:string">galya@gmail.com</anyType>
+            </values>
+            <id>1</id>
+          </Row>
+        </rows>
+      </Table>
+    </tables>
+  </Database>
+</ArrayOfDatabase>
